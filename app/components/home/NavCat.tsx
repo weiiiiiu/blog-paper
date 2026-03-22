@@ -46,7 +46,7 @@ export default function NavCat({ items, current, setCurrent }: Props) {
   return (
     <nav
       ref={ref}
-      className="bg-bg sticky -top-px z-1 mt-4 flex overflow-x-auto py-4 [&::-webkit-scrollbar]:hidden"
+      className="bg-bg sticky -top-px z-1 mt-4 flex overflow-x-auto py-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       {items.map((item, i) => {
         const isCurrent = current === i;
