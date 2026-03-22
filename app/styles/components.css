@@ -52,7 +52,6 @@
     }
 
     a:hover {
-      /* 你的 hoverBoxShadow 逻辑 */
       box-shadow: inset 0 -12px 0 var(--accent-hover);
     }
     a:hover::before {
