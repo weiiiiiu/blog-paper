@@ -137,7 +137,7 @@ keywords: Markdown, 测试
 
 ```sh
 pnpm i # 安装依赖
-pnpm velite # 构建静态数据、rss、search-index 等
+pnpm pre # 构建静态数据、rss、search-index 等
 pnpm build # 导出静态页面到 build/client 文件夹
 pnpm start # 启动服务（SSG模式）
 ```
